@@ -22,7 +22,7 @@ body {
 .hero {
   background: linear-gradient(135deg, #7b2cbf, #9d4edd);
   color: white;
-  padding: 100px 20px;
+  padding: 80px 20px;
 }
 .hero h1 {
   font-size: 38px;
@@ -61,7 +61,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
-  box-shadow: 0 5px 15px rgba(37,211,102,0.4);
+  box-shadow: 0 8px 20px rgba(37,211,102,0.5);
   transition: 0.3s;
 }
 
@@ -90,7 +90,10 @@ h2 {
   gap: 30px;
   justify-items: center;
 }
-
+.gallery-grid,
+.info-grid {
+  gap: 35px;
+}
 /* INFO GRID */
 .info {
   background: #3f276b;
@@ -109,7 +112,7 @@ h2 {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 12px 30px rgba(0,0,0,0.25);
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
 }
 
 .gallery-item img {
@@ -144,7 +147,7 @@ h2 {
   background: linear-gradient(180deg, #2a1f45, #1e1833);
   color: #ccc;
   padding: 30px 20px;
-  text-align: center;
+  text-align: center;  
 }
 
 .footer p {
