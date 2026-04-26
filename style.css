@@ -22,7 +22,10 @@ body {
 .hero {
   background: linear-gradient(135deg, #7b2cbf, #9d4edd);
   color: white;
-  padding: 60px 20px;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 38px;
 }
 
 .logo {
@@ -53,10 +56,17 @@ body {
   display: inline-block;
   background: #25d366;
   color: white;
-  padding: 14px 24px;
-  border-radius: 30px;
+  padding: 16px 28px;
+  border-radius: 40px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 5px 15px rgba(37,211,102,0.4);
+  transition: 0.3s;
+}
+
+.btn-whatsapp:hover {
+  transform: scale(1.05);
 }
 
 /* SEÇÕES */
@@ -98,7 +108,7 @@ h2 {
   background: #ffffff;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
   transition: all 0.3s ease;
 }
 
@@ -122,6 +132,12 @@ h2 {
   padding: 14px;
   border-radius: 50%;
   text-decoration: none;
+}
+
+.cta-final {
+  background: #4b2e83;
+  padding: 60px 20px;
+  text-align: center;
 }
 
 .footer {
